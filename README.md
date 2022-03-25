@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-![](ezgif.com-gif-maker.gif)
+![](Screen_Recording_20220325-114743_1_AdobeCreativeCloudExpress.gif)
 
 ## Getting Started
 
