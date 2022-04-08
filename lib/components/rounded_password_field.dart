@@ -5,11 +5,12 @@ import 'package:login_and_signup/constants.dart';
 
 class RoundedPasswordField extends StatefulWidget {
   final ValueChanged<String>? onChanged;
+  final bool isCorrect;
+  final TextEditingController? controller;
 
-  RoundedPasswordField({
-    Key? key,
-    this.onChanged,
-  }) : super(key: key);
+  const RoundedPasswordField(
+      {Key? key, this.onChanged, this.isCorrect = true, this.controller})
+      : super(key: key);
 
   @override
   State<RoundedPasswordField> createState() => _RoundedPasswordFieldState();
@@ -17,16 +18,19 @@ class RoundedPasswordField extends StatefulWidget {
 
 class _RoundedPasswordFieldState extends State<RoundedPasswordField> {
   bool passwordVisibility = true;
+
   @override
   Widget build(BuildContext context) {
     return TextFieldContainer(
-      child: TextField(
+      child: TextFormField(
+        controller: widget.controller,
         onChanged: widget.onChanged,
         obscureText: passwordVisibility,
         decoration: InputDecoration(
           hintText: "Your Password",
+          hintStyle: const TextStyle(color: Colors.black),
+          icon: const Icon(Icons.lock, color: kPrimaryColor),
           border: InputBorder.none,
-          icon: Icon(Icons.lock, color: kPrimaryColor),
           suffixIcon: IconButton(
             icon: Icon(Icons.visibility,
                 color: passwordVisibility

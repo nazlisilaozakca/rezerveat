@@ -18,11 +18,12 @@ class SocialIcon extends StatelessWidget {
         GestureDetector(
           onTap: () {},
           child: Container(
-            padding: EdgeInsets.all(25),
-            height: size.height * 0.1,
-            width: size.width * 0.2,
+            padding: const EdgeInsets.all(20),
+            height: size.height * 0.07,
+            width: size.width * 0.15,
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(50), color: kPrimaryColor),
+                borderRadius: BorderRadius.circular(50),
+                color: kPrimaryLightColor),
             child: SvgPicture.asset(
               iconSrc,
               width: 5,
