@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+![](Screen_Recording_20220325-114743_1_AdobeCreativeCloudExpress.gif)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
