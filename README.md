@@ -1,8 +1,6 @@
-# login_and_signup
+# Rezerveat
 
-A new Flutter project.
 
-![](Screen_Recording_20220325-114743_1_AdobeCreativeCloudExpress.gif)
 
 ## Getting Started
 
