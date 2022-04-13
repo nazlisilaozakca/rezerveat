@@ -70,16 +70,13 @@ class Body extends StatelessWidget {
           SizedBox(height: size.height * 0.02),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: const [
+            children: [
               SocialIcon(
+                onTap: () {
+                  _authService.signInWithGoogle();
+                },
                 iconSrc: "android/assets/icons/facebook.svg",
               ),
-              SocialIcon(
-                iconSrc: "android/assets/icons/twitter.svg",
-              ),
-              SocialIcon(
-                iconSrc: "android/assets/icons/google-plus.svg",
-              )
             ],
           ),
         ]),

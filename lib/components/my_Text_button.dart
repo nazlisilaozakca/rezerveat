@@ -10,7 +10,7 @@ class MyTextButton extends StatelessWidget {
     required this.bgColor,
   }) : super(key: key);
   final String buttonName;
-  final VoidCallback onPressed;
+  final VoidCallback? onPressed;
   final Color bgColor;
 
   @override

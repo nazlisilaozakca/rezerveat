@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
 import 'package:login_and_signup/constants.dart';
 
 class SocialIcon extends StatelessWidget {
   final String iconSrc;
+  final VoidCallback? onTap;
   const SocialIcon({
     Key? key,
     required this.iconSrc,
+    required this.onTap,
   }) : super(key: key);
 
   @override
@@ -16,7 +19,7 @@ class SocialIcon extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         GestureDetector(
-          onTap: () {},
+          onTap: onTap,
           child: Container(
             padding: const EdgeInsets.all(20),
             height: size.height * 0.07,

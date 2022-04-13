@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "355759603549",
+    "project_id": "rezerveat-9568d",
+    "storage_bucket": "rezerveat-9568d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355759603549:android:3adbd3e19795bcc55d32b4",
+        "android_client_info": {
+          "package_name": "com.example.login_and_signup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355759603549-6umtlj0g7nvjurdoesvneplta5kmlrdf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login_and_signup",
+            "certificate_hash": "e8dc9a9765a2f9f4c77b9a97b88e4c12a3128389"
+          }
+        },
+        {
+          "client_id": "355759603549-kasucjmjten76f5el97204eg75obq917.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ7CvGKLSbp_uQnT67J7Y17zuGoEb156M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355759603549-kasucjmjten76f5el97204eg75obq917.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "355759603549-s7dbkvagr1gn1bqe8kk54a8t4gkv9klm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "c"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
